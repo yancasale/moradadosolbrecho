@@ -342,6 +342,43 @@ footer {
     }
 }
 
+@media screen and (max-width: 553px) {
+    
+    .section-acomodacoes {
+        width: 42%;
+        height: 440px;
+        margin: 40px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.123);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .container-section-acomodacoes {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 40px auto;
+        height: 6500px;
+    }
+
+    .container-links {
+        display: none;
+    }
+
+    .box-logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .header-extensao h1 {
+        font-size: 1.6em;
+    }
+}
+
 @media screen and (max-width: 552px) {
     
     .section-acomodacoes {
